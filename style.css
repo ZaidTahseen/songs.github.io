@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation bar styling start here  */
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: rgb(255, 217, 0 );
+}
+
+#navlist{
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+.item{
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 4px 14px;
+}
+
+.item a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 15px;
+}
+
+#logo{
+    height: 60px;
+    width: 100px;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+#logo-img{
+    width: auto;
+    height: 100%;
+}
+/* Navigation bar styling start here  */
+
+
+
+/* Singer Container style start here  */
+#singer-container{
+    background: rgb(255, 218, 11 , 0.5);
+    margin: 20px 30px ;
+    padding: 25px;
+    text-align: center;
+    /* border: 2px solid pink; */
+}
+
+.poster{
+    width: 260px;
+    height: 300px;
+    display: inline-block;
+    margin: 0px 20px;
+    /* border: 2px solid greenyellow; */
+}
+
+.poster-img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.poster-text{
+    border-bottom: 2px solid red;
+    display: inline-block;
+    width: 70%;
+    letter-spacing: 2px;
+}
+/* Singer Container style end here  */
+
+
+/* Video-Container section start here  */
+
+#video-container{
+    margin: 20px 30px;
+    text-align: center;
+    border-top: 2px solid  rgb(255, 217, 0 , 0.9);
+    padding: 25px;
+}
+
+.video-box{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.video{
+    width : 310px ;
+    border: 3px solid ;
+}
+
+#video-heading , #audio-heading{
+    text-align: center;
+    letter-spacing: 3px;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+/* Video-Container section end here  */
+
+
+/* Audio section start here  */
+#audio-container{
+    border-top: 2px solid  rgb(255, 217, 0 , 0.9);
+    margin: 20px 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+.audio{
+    width: 100%;
+    height: 55px;
+
+}
+
+.audio:focus {
+    outline: none;
+}
+
+.audio-box{
+    border: 2px solid rgb(255, 217, 0 , 0.9);
+    width: 290px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 218, 11 , 0.5);
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.audio-title{
+    /* border: 1px solid black; */
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+}
+
+/* Audio section end here  */
+
+
+
+
+/* Footer section start here  */
+footer{
+    background: rgb(255, 217, 0);
+    margin: 20px 30px;
+    padding: 25px 0px;
+    text-align: center;
+}
+
+#right{
+    font-weight: 600;
+}
+/* Footer section end here  */
